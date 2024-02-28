@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F9F9FD;
+}
+
+.center-page {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.center-page h1{
+    text-align: center;
+    color: #2467FD;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.social-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icon ul li {
+    text-align: center;
+    display: inline-block;
+    font-size: 30px;
+}
+
+.social-icon li > a {
+    color: #000;
+}
+
+.social-icon li > a:hover{
+    color: #2467FD;
+}
